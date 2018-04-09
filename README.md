@@ -32,4 +32,12 @@ Essentially just practicing using node.js API libraries to retrieve information
 4. Do what it says
     * `node liri.js do-what-it-says`
         * will read [random.txt](./random.txt) and do the command that is specified in there.
-        * currently only works if there is only one command and argument in there, delimited by a comma.
+        * currently only works if there is only one command and argument in there, delimited by a comma
+
+
+
+## [log.txt](./log.txt)
+### At the time of writing, the following actions cause the result to be logged not only into the console but also into log.txt.
+### I can't get it to log in the right order because asynchronous something soemthing
+* `node liri.js invalidcommandhere`
+* `node liri.js my-tweets`

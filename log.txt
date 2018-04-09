@@ -1,6 +1,76 @@
-Sorry, that is not a valid LIRI command. Please enter one of the following:
+*************************************************************************************
+Sorry, mysdf is not a valid LIRI command. Please enter one of the following:
+spotify-this-song
+my-tweets
+movie-this
+do-what-it-says
+Please refer to the README.md for more help.
+*************************************************************************************
 my-tweets
 movie-this
 spotify-this-song
-do-what-it-says
+Sorry, mysdf is not a valid LIRI command. Please enter one of the following:
 Please refer to the README.md for more help.
+do-what-it-says
+*************************************************************************************
+CodingCakez's 20 most recent tweets
+=========================================
+" oh wait no the last one will show up but now the first two wont because we want the 20 most recent ones ha "
+=========================================
+Posted on: Sun Apr 08 20:36:58 +0000 2018
+=========================================
+" 21 but i need one more to make sure this one doesnt show up since we only wanna show 20 "
+Posted on: Sun Apr 08 20:34:48 +0000 2018
+=========================================
+" okk 20 "
+Posted on: Sun Apr 08 20:34:44 +0000 2018
+Posted on: Sun Apr 08 20:35:03 +0000 2018
+" omg im almost there "
+Posted on: Sun Apr 08 20:34:36 +0000 2018
+=========================================
+Posted on: Sun Apr 08 20:34:26 +0000 2018
+=========================================
+=========================================
+Posted on: Sun Apr 08 20:34:21 +0000 2018
+" 17 has nothing "
+" number 18 represent "
+Posted on: Sun Apr 08 20:34:11 +0000 2018
+" so is 16 "
+" 15 is divisibl by so many numbers "
+Posted on: Sun Apr 08 20:34:00 +0000 2018
+" two weeks has 14 days in it "
+=========================================
+=========================================
+=========================================
+Posted on: Sun Apr 08 20:33:38 +0000 2018
+Posted on: Sun Apr 08 20:33:28 +0000 2018
+" some people have twelve toes i think "
+=========================================
+Posted on: Sun Apr 08 20:33:16 +0000 2018
+" take a trip to seven ELEVEN "
+" 13 is unlucky for whatever reason "
+=========================================
+" ten am i gonna get reported for spamming "
+=========================================
+Posted on: Sun Apr 08 20:32:50 +0000 2018
+=========================================
+Posted on: Sun Apr 08 20:33:00 +0000 2018
+" nine "
+=========================================
+" eight "
+Posted on: Sun Apr 08 20:32:47 +0000 2018
+" i gotta get to fkin 20 tweets for this stupid hw "
+=========================================
+Posted on: Sun Apr 08 20:32:20 +0000 2018
+" status number 6 "
+=========================================
+=========================================
+" unless i counted wrong "
+Posted on: Sun Apr 08 20:22:50 +0000 2018
+Posted on: Sun Apr 08 20:32:33 +0000 2018
+=========================================
+=========================================
+Posted on: Sun Apr 08 20:22:40 +0000 2018
+" this tweet is 32 characters long "
+Posted on: Fri Apr 06 14:00:03 +0000 2018
+" test tweet 3 "

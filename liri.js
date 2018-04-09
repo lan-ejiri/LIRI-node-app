@@ -69,7 +69,7 @@ else {
 
     //if user types something funky
     else {
-        LOG.push("Sorry, that is not a valid LIRI command. Please enter one of the following:");
+        LOG.push("Sorry, " + process.argv[2] + " is not a valid LIRI command. Please enter one of the following:");
         LOG.push("my-tweets");
         LOG.push("spotify-this-song");
         LOG.push("movie-this");
@@ -269,6 +269,12 @@ function OMDBOOTER() {
 ///WRITE INTO LOG.TXT
 
 function LOGIT() {
+    fs.appendFile('log.txt', "*************************************************************************************\n", function (err) {
+        // If an error was experienced we say it.
+        if (err) {
+            console.log(err);
+        }
+    });
     for (i = 0; i < LOG.length; i++) {
         fs.appendFile('log.txt', LOG[i] + "\n", function (err) {
             // If an error was experienced we say it.
