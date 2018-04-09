@@ -1,17 +1,19 @@
 require("dotenv").config();
 
 //require things
-var Twitter = require("twitter");
-
-var spotify = require("node-spotify-api");
 var request = require("request");
 var fs = require("fs");
 
 
 //STEP 9
+var Twitter = require("twitter");
+var Spotify = require("node-spotify-api");
+
 var keys = require("./keys.js");
 var client = new Twitter(keys.twitter);
+var spotify = new Spotify(keys.spotify);
 
+//more variables
 var command = process.argv[2];
 var value = process.argv[3];
 
@@ -31,7 +33,7 @@ else {
     if (command === 'my-tweets') {
 
         //if a twitter handle is not specified, show CodingCakez's tweets
-        if (typeof process.argv[3] === 'undefined') {
+        if (typeof value === 'undefined') {
 
             console.log("CodingCakez's 20 most recent tweets");
             var params = { screen_name: 'CodingCakez' };
@@ -80,7 +82,61 @@ else {
 
     //if user types spotyisgdohsjdfkkg
     else if (command === 'spotify-this-song') {
-        console.log("spotify this song")
+
+        //if a song is not specified, defualt to ace whatever
+        if (typeof value === 'undefined') {
+
+            spotify.search({ type: 'track', query: 'ace of base the sign' }, function (err, data) {
+                if (err) {
+                    return console.log('Error occurred: ' + err);
+                }
+
+                console.log("================================");
+                console.log('Artist: ' + data.tracks.items[0].artists[0].name);
+                console.log('Song Title: ' + data.tracks.items[0].name);
+                console.log('Album: ' + data.tracks.items[0].album.name);
+                console.log('Preview Link: ' + data.tracks.items[0].preview_url);
+
+            });
+
+        } //closing if song is not specified
+
+        //if a song IS specifieded do the do
+        else {
+
+
+            spotify.search({ type: 'track', query: value, limit: 5 }, function (err, data) {
+                if (err) {
+                    return console.log('Error occurred: ' + err);
+                }
+
+                //if the search time yields nothing
+                if (data.tracks.total === 0) {
+                    console.log("Your search yielded 0 results");
+                } //close if search term yielded nothing
+
+                //if search term does yield something
+                else {
+
+                    //show the 5 most relevant results
+                    for (i = 0; i < data.tracks.items.length; i++) {
+                        console.log("================================");
+                        console.log('Artist: ' + data.tracks.items[i].artists[0].name);
+                        console.log('Song Title: ' + data.tracks.items[i].name);
+                        console.log('Album: ' + data.tracks.items[i].album.name);
+                        console.log('Preview Link: ' + data.tracks.items[i].preview_url);
+
+                    }
+
+                }//close if search term does yield result
+
+            });
+
+        }; //closing if song is specified
+
+
+
+
     } //closing else if spotify
 
     //if user types movie this
@@ -92,7 +148,7 @@ else {
     else if (command === 'do-what-it-says') {
         console.log("do-what-it-says");
     } //closing elseif do what it says
-    
+
     //if user types something funky
     else {
         console.log("Sorry, that is not a valid LIRI command. Please enter one of the following:");
