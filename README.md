@@ -29,6 +29,7 @@ Essentially just practicing using node.js API libraries to retrieve information
     * `node liri.js movie-this <moviename>`
         * will show Title, Year, Ratings, Country, Language, Actors, and Plot of speficied movie
         * if invalid movie, it will say so.
-
-
-* `do-what-it-says`
+4. Do what it says
+    * `node liri.js do-what-it-says`
+        * will read [random.txt](./random.txt) and do the command that is specified in there.
+        * currently only works if there is only one command and argument in there, delimited by a comma.

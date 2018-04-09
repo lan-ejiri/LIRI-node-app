@@ -1,0 +1,6 @@
+Sorry, that is not a valid LIRI command. Please enter one of the following:
+my-tweets
+movie-this
+spotify-this-song
+do-what-it-says
+Please refer to the README.md for more help.
