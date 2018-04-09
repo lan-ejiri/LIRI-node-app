@@ -141,7 +141,76 @@ else {
 
     //if user types movie this
     else if (command === 'movie-this') {
-        console.log("movie-this");
+
+        //if movie name is not entered
+        if (typeof value === 'undefined') {
+
+            var queryUrl = "http://www.omdbapi.com/?t=" + "Mr.+Nobody" + "&y=&plot=short&apikey=trilogy";
+
+            request(queryUrl, function (error, response, body) {
+
+                if (!error && response.statusCode === 200) {
+
+                    var allInfo = JSON.parse(body);
+                    // console.log(allInfo);
+                    console.log("===========================================");
+                    console.log("Movie Title: " + allInfo.Title);
+                    console.log("Release Year: " + allInfo.Year);
+                    console.log("IMDB Rating: " + allInfo.imdbRating);
+                    console.log("Rotten Tomatoes Rating: " + allInfo.Ratings[1].Value);
+                    console.log("Country: " + allInfo.Country);
+                    console.log("Language: " + allInfo.Language);
+                    console.log("Short Plot: " + allInfo.Plot);
+                    console.log("Actors: " + allInfo.Actors);
+                }
+            });
+        } //close if movie name is not entered
+
+        //if movie name is entered
+        else {
+            //do the call
+            var queryUrl = "http://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=trilogy";
+            request(queryUrl, function (error, response, body) {
+                var allInfo = JSON.parse(body);
+
+                // If the request is successful
+                if (!error && response.statusCode === 200) {
+
+                    //if there no movie,
+                    if (allInfo.Response === 'False') {
+                        console.log("Please enter a valid movie name");
+                    }
+
+                    //if there is a movie ACTUALLY JUST DONT OPEN THIS
+                    else {
+                        //check for a rotten tomato 
+                        for (i = 0; i < allInfo.Ratings.length; i++) {
+                            if (allInfo.Ratings[i].Source === 'Rotten Tomatoes') {
+                                var tomato = allInfo.Ratings[i].Value;
+                            }
+                        }
+
+                        console.log("===========================================");
+                        console.log("Movie Title: " + allInfo.Title);
+                        console.log("Release Year: " + allInfo.Year);
+                        console.log("Actors: " + allInfo.Actors);
+                        console.log("IMDB Rating: " + allInfo.imdbRating);
+
+                        if (tomato != undefined) {
+                            console.log("Rotten Tomatoes Rating: " + tomato);
+                        }
+                        else {
+                            console.log("Rotten Tomatos Rating: N/A");
+                        }
+
+                        console.log("Country: " + allInfo.Country);
+                        console.log("Language: " + allInfo.Language);
+                        console.log("Short Plot: " + allInfo.Plot);
+                    }
+                }
+            });
+        }// close if movie name is entered
+
     } //closing else if movie this
 
     //if user types do what it says
@@ -156,6 +225,7 @@ else {
         console.log("spotify-this-song");
         console.log("movie-this");
         console.log("do-what-it-says");
+        console.log("Please refer to the README.md for more help.");
     }//closing if user types invalid command
 
 } //closing if there is a command
