@@ -90,7 +90,8 @@ else {
 
 
 ///////FUNCTIONS HAVE TO BE OUTSIDE BECAUSE OF THE STUPID DO-WHAT-IT-SAYS
-//TWITTER
+
+//TWITTER LOG DONE
 function TWOOTER() {
 
     //if a twitter handle is not specified, show CodingCakez's tweets
@@ -112,14 +113,12 @@ function TWOOTER() {
                 CONSOLEIT();
                 LOGIT();
             }
-            // CONSOLEIT();
-            // LOGIT();
         });
 
 
     } //closing if twit handle not specified
 
-    // if a handle is speficied, show that user's tweets
+    // if a handle is speficied, show that user's tweets LOG DONE
     else {
         var params = { screen_name: value };
 
@@ -127,27 +126,27 @@ function TWOOTER() {
 
             if (!error) {
                 var j = 20;
-                console.log(value + "'s 20 most recent tweets");
+                LOG.push(value + "'s 20 most recent tweets");
 
                 for (i = 0; i < tweets.length; i++) {
 
-                    console.log('=========================================');
-                    console.log('Posted on: ' + tweets[i].created_at);
-                    console.log('" ' + tweets[i].text + ' "');
+                    LOG.push('========================================='
+                        , 'Posted on: ' + tweets[i].created_at, '" ' + tweets[i].text + ' "');
 
                     j--;
                 }
             }
             else {
-                console.log("sorry, that username does not exist")
+                LOG.push("sorry, that username does not exist")
             }
 
-
+            LOGIT();
+            CONSOLEIT();
         });
     } //closing if a twit handle specified
-    // LOGIT();
 }; //closing twooter
-//SPOTIFY
+
+//SPOTIFY  LOG DONE
 function SPOOTER() {
 
     //if a song is not specified, defualt to ace whatever
@@ -158,16 +157,14 @@ function SPOOTER() {
                 return console.log('Error occurred: ' + err);
             }
 
-            console.log("================================");
-            console.log('Artist: ' + data.tracks.items[0].artists[0].name);
-            console.log('Song Title: ' + data.tracks.items[0].name);
-            console.log('Album: ' + data.tracks.items[0].album.name);
-            console.log('Preview Link: ' + data.tracks.items[0].preview_url);
+            LOG.push("================================", 'Artist: ' + data.tracks.items[0].artists[0].name, 'Song Title: ' + data.tracks.items[0].name, 'Album: ' + data.tracks.items[0].album.name, 'Preview Link: ' + data.tracks.items[0].preview_url);
+            CONSOLEIT();
+            LOGIT();
 
         });
-
+       
     } //closing if song is not specified
-
+    
     //if a song IS specifieded do the do
     else {
 
@@ -178,7 +175,7 @@ function SPOOTER() {
 
             //if the search time yields nothing
             if (data.tracks.total === 0) {
-                console.log("Your search yielded 0 results");
+                LOG.push("Your search yielded 0 results");
             } //close if search term yielded nothing
 
             //if search term does yield something
@@ -186,18 +183,18 @@ function SPOOTER() {
 
                 //show the 5 most relevant results
                 for (i = 0; i < data.tracks.items.length; i++) {
-                    console.log("================================");
-                    console.log('Artist: ' + data.tracks.items[i].artists[0].name);
-                    console.log('Song Title: ' + data.tracks.items[i].name);
-                    console.log('Album: ' + data.tracks.items[i].album.name);
-                    console.log('Preview Link: ' + data.tracks.items[i].preview_url);
+                    LOG.push("================================",'Artist: ' + data.tracks.items[i].artists[0].name,'Song Title: ' + data.tracks.items[i].name,'Album: ' + data.tracks.items[i].album.name,'Preview Link: ' + data.tracks.items[i].preview_url);
                 }
             }//close if search term does yield result
+
+            CONSOLEIT();
+            LOGIT();
         });
     }; //closing if song is specified
+   
 }
 
-//OMDB
+//OMDB LOG DONE
 function OMDBOOTER() {
     //if movie name is not entered
     if (typeof value === 'undefined') {
@@ -210,17 +207,12 @@ function OMDBOOTER() {
 
                 var allInfo = JSON.parse(body);
                 // console.log(allInfo);
-                console.log("===========================================");
-                console.log("Movie Title: " + allInfo.Title);
-                console.log("Release Year: " + allInfo.Year);
-                console.log("IMDB Rating: " + allInfo.imdbRating);
-                console.log("Rotten Tomatoes Rating: " + allInfo.Ratings[1].Value);
-                console.log("Country: " + allInfo.Country);
-                console.log("Language: " + allInfo.Language);
-                console.log("Short Plot: " + allInfo.Plot);
-                console.log("Actors: " + allInfo.Actors);
+                LOG.push("===========================================","Movie Title: " + allInfo.Title,"Release Year: " + allInfo.Year,"IMDB Rating: " + allInfo.imdbRating,"Rotten Tomatoes Rating: " + allInfo.Ratings[1].Value,"Country: " + allInfo.Country,"Language: " + allInfo.Language,"Short Plot: " + allInfo.Plot,"Actors: " + allInfo.Actors);
             }
+            CONSOLEIT();
+            LOGIT();
         });
+       
     } //close if movie name is not entered
 
     //if movie name is entered
@@ -235,7 +227,7 @@ function OMDBOOTER() {
 
                 //if there no movie,
                 if (allInfo.Response === 'False') {
-                    console.log("Please enter a valid movie name");
+                    LOG.push("Please enter a valid movie name");
                 }
 
                 //if there is a movie ACTUALLY JUST DONT OPEN THIS
@@ -247,23 +239,19 @@ function OMDBOOTER() {
                         }
                     }
 
-                    console.log("===========================================");
-                    console.log("Movie Title: " + allInfo.Title);
-                    console.log("Release Year: " + allInfo.Year);
-                    console.log("Actors: " + allInfo.Actors);
-                    console.log("IMDB Rating: " + allInfo.imdbRating);
+                    LOG.push("===========================================","Movie Title: " + allInfo.Title,"Release Year: " + allInfo.Year,"Actors: " + allInfo.Actors,"IMDB Rating: " + allInfo.imdbRating);
 
                     if (tomato != undefined) {
-                        console.log("Rotten Tomatoes Rating: " + tomato);
+                        LOG.push("Rotten Tomatoes Rating: " + tomato);
                     }
                     else {
-                        console.log("Rotten Tomatos Rating: N/A");
+                        LOG.push("Rotten Tomatos Rating: N/A");
                     }
 
-                    console.log("Country: " + allInfo.Country);
-                    console.log("Language: " + allInfo.Language);
-                    console.log("Short Plot: " + allInfo.Plot);
+                    LOG.push("Country: " + allInfo.Country,"Language: " + allInfo.Language,"Short Plot: " + allInfo.Plot);
                 }
+                CONSOLEIT();
+                LOGIT();
             }
         });
     }// close if movie name is entered
@@ -282,8 +270,9 @@ function LOGIT() {
     });
 
     var index = 0;
-    function writeIt(){
-        if(index < LOG.length){
+    //forces it to wait for line to be written first before moving onto next element in LOG
+    function writeIt() {
+        if (index < LOG.length) {
             fs.appendFile('log.txt', LOG[index++] + "\n", writeIt);
         }
     }

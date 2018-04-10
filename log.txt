@@ -5,136 +5,12 @@ spotify-this-song
 movie-this
 do-what-it-says
 *************************************************************************************
-Sorry, adf is not a valid LIRI command. Please enter one of the following:
+Sorry, asdajhsd is not a valid LIRI command. Please enter one of the following:
 my-tweets
 spotify-this-song
-Please refer to the README.md for more help.
-do-what-it-says
 movie-this
-*************************************************************************************
-CodingCakez's 20 most recent tweets
-" oh wait no the last one will show up but now the first two wont because we want the 20 most recent ones ha "
-=========================================
-Posted on: Sun Apr 08 20:36:58 +0000 2018
-=========================================
-=========================================
-" 21 but i need one more to make sure this one doesnt show up since we only wanna show 20 "
-Posted on: Sun Apr 08 20:35:03 +0000 2018
-=========================================
-Posted on: Sun Apr 08 20:34:48 +0000 2018
-Posted on: Sun Apr 08 20:34:44 +0000 2018
-" omg im almost there "
-=========================================
-Posted on: Sun Apr 08 20:34:36 +0000 2018
-" number 18 represent "
-Posted on: Sun Apr 08 20:34:26 +0000 2018
-=========================================
-=========================================
-" so is 16 "
-Posted on: Sun Apr 08 20:34:21 +0000 2018
-=========================================
-Posted on: Sun Apr 08 20:34:11 +0000 2018
-=========================================
-" 17 has nothing "
-Posted on: Sun Apr 08 20:34:00 +0000 2018
-" two weeks has 14 days in it "
-" 15 is divisibl by so many numbers "
-=========================================
-Posted on: Sun Apr 08 20:33:38 +0000 2018
-=========================================
-Posted on: Sun Apr 08 20:33:28 +0000 2018
-=========================================
-" some people have twelve toes i think "
-Posted on: Sun Apr 08 20:33:16 +0000 2018
-" okk 20 "
-" 13 is unlucky for whatever reason "
-Posted on: Sun Apr 08 20:33:00 +0000 2018
-" ten am i gonna get reported for spamming "
-=========================================
-=========================================
-Posted on: Sun Apr 08 20:32:50 +0000 2018
-" nine "
-" take a trip to seven ELEVEN "
-=========================================
-Posted on: Sun Apr 08 20:32:47 +0000 2018
-" eight "
-=========================================
-" i gotta get to fkin 20 tweets for this stupid hw "
-Posted on: Sun Apr 08 20:32:33 +0000 2018
-Posted on: Sun Apr 08 20:32:20 +0000 2018
-=========================================
-" status number 6 "
-=========================================
-Posted on: Sun Apr 08 20:22:50 +0000 2018
-Posted on: Sun Apr 08 20:22:40 +0000 2018
-" this tweet is 32 characters long "
-=========================================
-Posted on: Fri Apr 06 14:00:03 +0000 2018
-=========================================
-" test tweet 3 "
-" unless i counted wrong "
-CodingCakez's 20 most recent tweets
-*************************************************************************************
-Posted on: Sun Apr 08 20:36:58 +0000 2018
-=========================================
-" oh wait no the last one will show up but now the first two wont because we want the 20 most recent ones ha "
-" 21 but i need one more to make sure this one doesnt show up since we only wanna show 20 "
-=========================================
-=========================================
-" okk 20 "
-Posted on: Sun Apr 08 20:34:48 +0000 2018
-=========================================
-Posted on: Sun Apr 08 20:34:44 +0000 2018
-" omg im almost there "
-Posted on: Sun Apr 08 20:34:36 +0000 2018
-=========================================
-" number 18 represent "
-=========================================
-Posted on: Sun Apr 08 20:34:26 +0000 2018
-" 17 has nothing "
-=========================================
-" so is 16 "
-Posted on: Sun Apr 08 20:34:21 +0000 2018
-=========================================
-Posted on: Sun Apr 08 20:34:11 +0000 2018
-=========================================
-Posted on: Sun Apr 08 20:34:00 +0000 2018
-" two weeks has 14 days in it "
-=========================================
-" 13 is unlucky for whatever reason "
-Posted on: Sun Apr 08 20:33:38 +0000 2018
-=========================================
-Posted on: Sun Apr 08 20:35:03 +0000 2018
-" some people have twelve toes i think "
-=========================================
-Posted on: Sun Apr 08 20:33:16 +0000 2018
-=========================================
-" take a trip to seven ELEVEN "
-Posted on: Sun Apr 08 20:33:28 +0000 2018
-" ten am i gonna get reported for spamming "
-Posted on: Sun Apr 08 20:33:00 +0000 2018
-" nine "
-=========================================
-Posted on: Sun Apr 08 20:32:50 +0000 2018
-Posted on: Sun Apr 08 20:32:47 +0000 2018
-=========================================
-" eight "
-=========================================
-Posted on: Sun Apr 08 20:32:33 +0000 2018
-" i gotta get to fkin 20 tweets for this stupid hw "
-Posted on: Sun Apr 08 20:32:20 +0000 2018
-=========================================
-=========================================
-" unless i counted wrong "
-" status number 6 "
-Posted on: Sun Apr 08 20:22:50 +0000 2018
-=========================================
-Posted on: Sun Apr 08 20:22:40 +0000 2018
-" 15 is divisibl by so many numbers "
-=========================================
-" this tweet is 32 characters long "
-" test tweet 3 "
-Posted on: Fri Apr 06 14:00:03 +0000 2018
+do-what-it-says
+Please refer to the README.md for more help.
 *************************************************************************************
 CodingCakez's 20 most recent tweets
 =========================================
@@ -197,3 +73,112 @@ Posted on: Sun Apr 08 20:22:40 +0000 2018
 =========================================
 Posted on: Fri Apr 06 14:00:03 +0000 2018
 " test tweet 3 "
+*************************************************************************************
+sorry, that username does not exist
+*************************************************************************************
+tweetlike40oz's 20 most recent tweets
+=========================================
+Posted on: Tue Mar 20 19:03:22 +0000 2018
+" RT @comethazine117: If I get 10k on twitter today Ima go to no jumper and slap the fuck out of adamn on camera and post it tomorrow ☄️ PLAY… "
+=========================================
+Posted on: Tue Mar 20 03:31:20 +0000 2018
+" you gotta be asian to wear anti social social club? "
+=========================================
+Posted on: Wed Mar 14 02:11:55 +0000 2018
+" there’s only two niggas better than me. and im both of em "
+=========================================
+Posted on: Fri Mar 09 20:49:26 +0000 2018
+" https://t.co/fSPm0xoFVM "
+=========================================
+Posted on: Fri Mar 09 20:27:27 +0000 2018
+" RT @ilooklikelilbil: russ rap like a quoted tweet "
+=========================================
+Posted on: Fri Mar 09 20:26:40 +0000 2018
+" RT @Lediiaaa: Your wcw got in a fight with you and went and got nutted in by another guy then told you she loved you the next day when you… "
+=========================================
+Posted on: Fri Mar 09 20:25:06 +0000 2018
+" RT @1of0ne: 😂😂😂😂 https://t.co/oJfazKkRJW "
+=========================================
+Posted on: Fri Mar 09 20:24:59 +0000 2018
+" RT @issashu_: @itzPascuaTime wisdom https://t.co/46mnu2DsCW "
+=========================================
+Posted on: Thu Mar 08 04:17:52 +0000 2018
+" florida gators? yeah... it’s a wrap for florida. we gotta get that state tf outta here https://t.co/QDWYEK2I13 "
+=========================================
+Posted on: Thu Mar 08 02:34:00 +0000 2018
+" ma you got baby fever but don’t even know how to cook. lets take this one step at a time "
+=========================================
+Posted on: Fri Feb 23 15:03:42 +0000 2018
+" in florida and new york these are threats so idk what you really tryna say ma https://t.co/LVYeYWJcbS "
+=========================================
+Posted on: Fri Feb 23 06:58:32 +0000 2018
+" RT @InStackzWeTrust: Lmaoooooo this accurate. https://t.co/uYYcxZ5457 "
+=========================================
+Posted on: Fri Feb 23 05:52:49 +0000 2018
+" shorties with private ig’s got the best pussy "
+=========================================
+Posted on: Thu Feb 22 06:37:03 +0000 2018
+" RT @JoeFrmThe6: @tweetlike40oz Real talk it be mad brick outside my g "
+=========================================
+Posted on: Thu Feb 22 06:36:56 +0000 2018
+" RT @dinero_diego: cozyboys https://t.co/LM4KhxOo2T "
+=========================================
+Posted on: Thu Feb 22 06:36:46 +0000 2018
+" RT @yungmasht: “i really think it’s important to preserve our DIY spaces” https://t.co/FUtmxisydS "
+=========================================
+Posted on: Thu Feb 22 00:42:01 +0000 2018
+" michael b jordan been my teammate in 2k17 for a whole two years but as soon as this nigga in a hyped up movie bitch… https://t.co/rgPA8QVC9I "
+=========================================
+Posted on: Thu Feb 22 00:39:33 +0000 2018
+" RT @powlowcui: it me https://t.co/GmxMXQ1V9b "
+=========================================
+Posted on: Wed Feb 21 20:47:41 +0000 2018
+" RT @seanieviola: Fortune Bookie https://t.co/nstOeU3oTi "
+*************************************************************************************
+================================
+Artist: Ace of Base
+Song Title: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=9377624d33bf4d029983517672d5f5c3
+*************************************************************************************
+================================
+Artist: Evanescence
+Song Title: Going Under
+Album: Fallen
+Preview Link: null
+================================
+Artist: Borgeous
+Song Title: Going Under - Leon Lour Remix
+Album: 13 (Remixes)
+Preview Link: https://p.scdn.co/mp3-preview/65880a4302bca4ab3c4bdadad74585b8eb23a483?cid=9377624d33bf4d029983517672d5f5c3
+================================
+Artist: Fall Out Boy
+Song Title: Get Busy Living Or Get Busy Dying (Do Your Part To Save The Scene And Stop Going To Shows)
+Album: From Under The Cork Tree
+Preview Link: null
+================================
+Artist: Borgeous
+Song Title: Going Under
+Album: 13
+Preview Link: https://p.scdn.co/mp3-preview/dde000f21d1632d453cc7a234d1a5ff86696c1e5?cid=9377624d33bf4d029983517672d5f5c3
+================================
+Artist: Telykast
+Song Title: Going Under (Kbubs Remix)
+Album: Going Under (Kbubs Remix)
+Preview Link: https://p.scdn.co/mp3-preview/919e93ea49c0edf9854754a4ed7ca6d967d1ad93?cid=9377624d33bf4d029983517672d5f5c3
+Your search yielded 0 results
+*************************************************************************************
+*************************************************************************************
+Your search yielded 0 results
+*************************************************************************************
+Your search yielded 0 results
+===========================================
+*************************************************************************************
+Movie Title: Mr. Nobody
+Release Year: 2009
+IMDB Rating: 7.9
+Rotten Tomatoes Rating: 66%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Short Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
