@@ -108,9 +108,12 @@ function TWOOTER() {
 
                     j--;
                 }
+
+                CONSOLEIT();
+                LOGIT();
             }
-            CONSOLEIT();
-            LOGIT();
+            // CONSOLEIT();
+            // LOGIT();
         });
 
 
@@ -277,15 +280,15 @@ function LOGIT() {
             console.log(err);
         }
     });
-    for (i = 0; i < LOG.length; i++) {
-        fs.appendFile('log.txt', LOG[i] + "\n", function (err) {
-            // If an error was experienced we say it.
-            if (err) {
-                console.log(err);
-            }
-        });
 
-    };
+    var index = 0;
+    function writeIt(){
+        if(index < LOG.length){
+            fs.appendFile('log.txt', LOG[index++] + "\n", writeIt);
+        }
+    }
+
+    writeIt();
 }
 
 //console log it
