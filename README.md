@@ -41,3 +41,4 @@ Essentially just practicing using node.js API libraries to retrieve information
 ### I can't get it to log in the right order because asynchronous something soemthing
 * `node liri.js invalidcommandhere`
 * `node liri.js my-tweets`
+* `node liri.js`

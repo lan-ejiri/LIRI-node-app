@@ -16,11 +16,13 @@ var LOG = [];
 
 // if there is no command, welcome the user
 if (process.argv.length === 2) {
-    console.log("Hi, welcome to LIRI. Please enter one of the following commands:");
-    console.log("my-tweets along with a twitter handle to see that user's 20 most recent tweets. If you do not enter a handle, you will see CodingCakez's 20 most recent tweets.");
-    console.log("spotify-this-song");
-    console.log("movie-this");
-    console.log("do-what-it-says");
+    LOG.push("Hi, welcome to LIRI. Please enter one of the following commands:");
+    LOG.push("my-tweets along with a twitter handle to see that user's 20 most recent tweets. If you do not enter a handle, you will see CodingCakez's 20 most recent tweets.");
+    LOG.push("spotify-this-song");
+    LOG.push("movie-this");
+    LOG.push("do-what-it-says");
+    CONSOLEIT();
+    LOGIT();
 } //closing if there is no command.F
 
 //if there is a command, then do the do
@@ -191,6 +193,7 @@ function SPOOTER() {
         });
     }; //closing if song is specified
 }
+
 //OMDB
 function OMDBOOTER() {
     //if movie name is not entered
@@ -267,7 +270,6 @@ function OMDBOOTER() {
 
 
 ///WRITE INTO LOG.TXT
-
 function LOGIT() {
     fs.appendFile('log.txt', "*************************************************************************************\n", function (err) {
         // If an error was experienced we say it.
@@ -286,8 +288,7 @@ function LOGIT() {
     };
 }
 
-
-
+//console log it
 function CONSOLEIT() {
     for (i = 0; i < LOG.length; i++) {
         console.log(LOG[i]);
